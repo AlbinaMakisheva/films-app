@@ -1,0 +1,129 @@
+{
+  "filmlistCollection": [
+    {
+      "id": "11",
+      "title": "For friends",
+      "userid": "b5d8a71e-4ae0-444f-a52f-c44b344dd990",
+      "picture": "https://res.cloudinary.com/dnxjv4qh1/image/upload/v1649154838/cld-sample.jpg",
+      "films": [
+        {
+          "id": "03",
+          "title": "Scream",
+          "genre": "Horror",
+          "duration": "30"
+        },
+        {
+          "id": "07",
+          "title": "Hot Fuzz",
+          "genre": "Comedy",
+          "duration": "390"
+        },
+        {
+          "id": "09",
+          "title": "Lady Bird",
+          "genre": "Comedy",
+          "duration": "90"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Rainy day",
+      "userid": "b5d8a71e-4ae0-444f-a52f-c44b344dd990",
+      "picture": "https://res.cloudinary.com/dnxjv4qh1/image/upload/v1649157121/istockphoto-1257951336-612x612_bcc72s.jpg",
+      "films": [
+        {
+          "id": "00",
+          "title": "Shaun of the Dead",
+          "genre": "Comedy",
+          "duration": "120"
+        },
+        {
+          "id": "04",
+          "title": "Tony Erdmann",
+          "genre": "Comedy",
+          "duration": "120"
+        },
+        {
+          "id": "06",
+          "title": "Belfast",
+          "genre": "Drama",
+          "duration": "120"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Family",
+      "userid": "b5d8a71e-4ae0-444f-a52f-c44b344dd990",
+      "picture": "https://res.cloudinary.com/dnxjv4qh1/image/upload/v1649154817/sample.jpg",
+      "films": [
+        {
+          "id": "Encanto",
+          "title": "Encanto",
+          "genre": "Fantasy",
+          "duration": "120"
+        },
+        {
+          "id": "Coraline",
+          "title": "Coraline",
+          "genre": "Fantasy",
+          "duration": "120"
+        },
+        {
+          "id": "Soul",
+          "title": "Soul2",
+          "genre": "Drama",
+          "duration": "120"
+        },
+        {
+          "id": "5d5e39a7-6ef2-4d64-9c7a-59cfbf4ee190",
+          "title": "Home Alone",
+          "genre": "Comedy",
+          "duration": "120"
+        }
+      ]
+    },
+    {
+      "id": "c83feb29-580e-4639-bb07-3475beabf9c7",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "title": "study",
+      "picture": "http://res.cloudinary.com/dnxjv4qh1/image/upload/v1650535653/pntjyytqjqq3ppczjm0z.jpg",
+      "films": [
+        {
+          "id": "4b868cb3-3046-475d-996c-646632e8c83c",
+          "title": "lk",
+          "genre": "Thriller",
+          "duration": "30"
+        },
+        {
+          "id": "263fa083-2c65-4a66-81bc-5c8b161a3ab7",
+          "title": "Scream",
+          "genre": "Thriller",
+          "duration": "30"
+        },
+        {
+          "id": "31e50c64-85cb-4e0b-a200-3bb8452fe58d",
+          "title": "kkkjj",
+          "genre": "Horror",
+          "duration": "30"
+        }
+      ]
+    },
+    {
+      "id": "e2beca2e-10fb-4e43-9e33-c53f68df034a",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "title": "Fr",
+      "picture": "http://res.cloudinary.com/dnxjv4qh1/image/upload/v1650636732/gi58noytezua2wnax7dn.jpg",
+      "date": "2022-04-22T14:12:07.069Z",
+      "films": [
+        {
+          "id": "3f04c2c5-67ae-4fe2-b3d7-126fdd3bc143",
+          "title": "Kuj",
+          "genre": "Fantasy",
+          "duration": "120"
+        }
+      ]
+    }
+  ]
+}

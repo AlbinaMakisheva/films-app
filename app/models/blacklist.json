@@ -1,0 +1,16 @@
+{
+  "blacklists": [
+    {
+      "id": "f7747d7f-9802-426a-830b-04dad83d5e45",
+      "userid": "b5d8a71e-4ae0-444f-a52f-c44b344dd990",
+      "title": "Scream",
+      "genre": "Horror"
+    },
+    {
+      "id": "5f552c8f-d210-40ce-a5c5-292da43e0b42",
+      "userid": "c59778f5-c942-4e07-9e4f-da11cbe9610a",
+      "title": "Scream",
+      "genre": "Horror"
+    }
+  ]
+}

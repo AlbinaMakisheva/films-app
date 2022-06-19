@@ -1,0 +1,95 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&family=Orelega+One&family=Readex+Pro&display=swap');
+
+body {
+  position:fixed center;
+  color: #000000;
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #Ffdead;
+}
+
+#par{
+  color: #ffffff;
+  font-family: helvetica, arial, sans-serif;
+  text-align:right;
+  margin-right:20px;
+}
+
+.map{
+  padding:40px 0;
+  text-align:center;
+}
+.container{
+  max-width:100%;
+  margin:0 auto;
+}
+#contentinfo,#contentlike{
+  width:30%;
+  background:linen;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:1vw;
+  border-radius:1vw;
+  position:relative;
+  left:80%;
+  bottom:15vw;
+  animation:slide 0.5s forwards;
+  display:none;
+}
+@keyframes slide{
+  0%{
+    bottom:15vw;
+  }100%{
+    bottom:8vw;
+  }
+}
+#headingNotiflike,#headingNotifinfo{
+  font-family:'Lato',sans-serif;
+  color:black;
+  margin:1vw;
+}
+#closebtnlike, #closebtninfo{
+  background:transparent;
+  color:black;
+}
+.name{
+  padding-top:20px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}
+.profilepic{
+  padding-top:15px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+}
+
+#mainheader{
+  font-family:'Orelega One',cursive;
+  font-size:25px;
+  
+}
+
+
+.dark-mode{
+  background-color: dimgray;
+}
+
+#heartbutton, #infobutton,#nightbutton{
+background:white;
+}
+
+
+
+#heartbutton:hover,#infobutton:hover,#nightbutton:hover{
+  background:lightgray;
+}
+
+#form{
+  width: 250px;
+}
+

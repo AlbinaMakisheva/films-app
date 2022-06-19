@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "userpic": ""
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "userpic": "https://res.cloudinary.com/dnxjv4qh1/image/upload/v1649159443/MargeSimpson_orbcgf.png"
+    },
+    {
+      "firstName": "Tomas",
+      "lastName": "Tomas",
+      "email": "tomas@gmail.com",
+      "password": "123Secret.",
+      "id": "d71db7d1-0e43-4fcb-9286-13462b3e672c",
+      "userpic": "http://res.cloudinary.com/dnxjv4qh1/image/upload/v1651254733/wik1xxkgxdgozncrfnfv.jpg"
+    },
+    {
+      "firstName": "Albina",
+      "lastName": "Makisheva",
+      "email": "allielane24@gmail.com",
+      "password": "secret",
+      "id": "b5d8a71e-4ae0-444f-a52f-c44b344dd990",
+      "userpic": "http://res.cloudinary.com/dnxjv4qh1/image/upload/v1651396219/zpk1pthiaoofounzmlfj.jpg"
+    }
+  ]
+}

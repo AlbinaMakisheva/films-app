@@ -1,0 +1,45 @@
+
+{{#unless  blacklists}}
+  <h3 class="ui center aligned message" align="center">You can add here films which you will never watch or advice!</h3>
+{{/unless}}
+  
+{{#if blacklists}}
+  <table class="ui fixed striped table">
+  <thead>
+    <tr>
+      
+      <th class="four wide">Title</th>
+      <th class="three wide">Genre</th>
+      <th class="one wide"> </th>
+      <th class="one wide"> </th>
+    </tr>
+  </thead>  
+    
+    
+    <tbody>
+    {{#each  blacklists}}
+    
+    <tr >
+      <td >
+        <span>
+         {{title}}
+        </span>
+      </td>
+      <td >
+        <span>
+          {{genre}}
+        </span>
+      </td>
+     
+    
+      <td class="center aligned">
+        <a href="/blacklist/deleteblackfilm/{{id}}" class="ui icon button delfilm">
+          <i class="ui trash icon"></i>
+        </a>
+      </td>
+    </tr>
+  
+  {{/each}}
+  </tbody>
+</table>
+{{/if}}

@@ -1,0 +1,21 @@
+<form class="ui stacked segment form" action="/filmlist/{{filmlist.id}}/addfilm" method="POST">
+  <div class="three fields">
+    <div class="field">
+      <label for="title">Title</label>
+      <input type="text" name="title" autofocus required title = "Please include a valid Title"
+      placeholder="Title">
+    </div>
+    <select name="genre" id="genre">
+      <option value ="Thriller">Thriller</option>
+      <option value ="Comedy">Comedy</option>
+      <option value ="Horror">Horror</option>
+      <option value ="Drama">Drama</option>
+      <option value ="Fantasy">Fantasy</option>
+    </select>
+    <div class="field">
+      <label for="duration">Duration</label>
+      <input placeholder="Duration" type="text" name="duration" required>
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Film</button>
+</form>

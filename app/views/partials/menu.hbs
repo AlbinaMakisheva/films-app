@@ -1,0 +1,67 @@
+<nav class="ui menu">
+  <header class="ui header item" id="mainheader"> <a href="/start"> Films App</a></header>
+  <div class="right menu">
+    <span class="name">{{fullname}}</span>   
+    <span class="profilepic"><img src="{{userpic}}" class="ui avatar image"></span>
+    <a id="dashboard" class="item" href="/dashboard"> Dashboard </a>
+    <a id="blacklist" class="item" href="/blacklist"> Blacklist </a>
+    <a id="about" class="item" href="/about"> About </a>
+    <a id="profil" class="item" href="/profil"> Profil </a>
+    <a id="logout" class="item" href="/logout"> Logout </a>
+    
+  </div>
+</nav>
+
+<script>
+  $("#{{id}}").addClass("active item");
+</script>
+
+<nav class="ui menu">
+  <div class="right menu">
+    <div class="buttons">
+      
+      
+      <button class="ui button" id="heartbutton" onclick="NotificationLike()">
+        <i class="red heart icon"></i>
+      </button>
+      <button class="ui button" id ="infobutton" onclick="NotificationInfo()">
+        <i class=" black info icon"></i>
+        <button class="ui button" id="nightbutton">
+        <i class="ui moon icon">/</i><i class="ui sun icon"></i>
+      </button>
+      </button>
+    
+       
+      
+  
+          
+    </div>
+  </div>
+</nav>
+    <div class="content" id="contentlike">
+        
+        
+          <h3 id="headingNotiflike">
+            {{firstuppercase fullname }},Thank you for your like!
+          </h3>
+      
+          <button class="ui button" id ="closebtnlike" onclick="CloseNotif()">
+            <i class="close icon" ></i>
+          </button>
+          
+        
+      </div>
+       <div class="content" id="contentinfo">
+        
+        
+          <h3 id="headingNotifinfo">
+            {{firstuppercase fullname }},This app was is for creating your filmlists!
+          </h3>
+      
+          <button class="ui button" id ="closebtninfo" onclick="CloseNotif()">
+            <i class="close icon" ></i>
+          </button>
+          
+        
+      </div>
+   

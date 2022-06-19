@@ -1,0 +1,32 @@
+{
+  "developers": [
+    {
+      "name": "Stevie",
+      "fullname": "Stevie Feliciano",
+      "image": "https://cdn.glitch.global/b7ad7fe2-3160-43a9-97cd-2ed5db90205f/1es2km.jpg?v=1647547371558",
+      "joined": 2016,
+      "job": "Web Developer",
+      "city": "Boston",
+      "mates": 35
+    },
+    {
+      "name": "Lenin",
+      "fullname": "Vladimir Lenin",
+      "image": "https://cdn.glitch.global/b7ad7fe2-3160-43a9-97cd-2ed5db90205f/R%20(4).jpg?v=1647547751649",
+      "joined": 2013,
+      "job": "Art Director",
+      "city": "Moscow",
+      "mates": 22
+    },
+    {
+      "name": "Tyan",
+      "fullname": "Anime Tyan",
+      "image": "https://cdn.glitch.global/b7ad7fe2-3160-43a9-97cd-2ed5db90205f/R.jpg?v=1647547600573",
+      "joined": 2015,
+      "job": "Research Assistant",
+      "city": "Tokyo",
+      "mates": 26
+    }
+  ]
+  
+}

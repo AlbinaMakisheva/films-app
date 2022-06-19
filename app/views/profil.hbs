@@ -1,0 +1,36 @@
+{{> menu id="profil"}}
+
+<body>
+  
+
+<section class="ui segment">
+
+   <div align="center">
+        
+    <span class="profilepic"><img src="{{userpic}}" class="ui small circle image"></span>
+    
+    <form class = "ui stacked segment form" action="/profil/updateprofil" method="POST" enctype="multipart/form-data">
+      
+      <div class="field">
+        <div  id="form">
+          
+        <label>Update your foto and refresh page</label>
+       
+        <input type="file" name="userpic" placeholder="Image" required >
+        <label>Firstname:</label>
+        <input type="text" name="firstname" required title = "Please enter a valid firstname" placeholder="Firstname" value = "{{ firstname}}">
+        <label>Lastname:</label>
+        <input type="text" name="lastname" required title = "Please enter a valid lastname" placeholder="Lastname" value = "{{lastname}}">
+        </div>
+       
+     <button class="ui submit icon button"><i class="ui pencil alternate icon"></i></button>
+     <a href="/profil/deleteprofil/{{id}}" class="ui icon button delprofil">
+          <i class="ui trash icon"></i>
+        </a> 
+       </div>    
+    </form>
+  
+  </div>
+</section>
+ 
+</body>

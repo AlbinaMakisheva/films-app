@@ -1,0 +1,32 @@
+{{> menu id="about"}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    The Films app team:
+  </h2>
+
+  <div class="ui centered cards">
+        {{#each developers}}
+      {{> card}}
+    {{/ each}}
+      <!-- Template goes here -->
+
+  </div>
+</section>
+<section class="map">
+  <h2>
+    How you can find us?
+  </h2>
+<div class="container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1023.1525366399615!2d-7.139094119815177!3d52.24574603090668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4842c41310dd4131%3A0x4042f0dcf13f7cfe!2sWaterford%20Institute%20of%20Technology!5e0!3m2!1scs!2sie!4v1647442954833!5m2!1scs!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div></section>
+
+
+
+  
+  {{>listcomments}}
+  
+  {{>addcomment}}
+
+
+
